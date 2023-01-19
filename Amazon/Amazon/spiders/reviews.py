@@ -1,6 +1,7 @@
 import scrapy
 from ..items import AmazonItem, AmazonItemLoader
 
+
 class ReviewsSpider(scrapy.Spider):
     name = 'reviews'
     allowed_domains = ['amazon.com']
@@ -22,19 +23,7 @@ class ReviewsSpider(scrapy.Spider):
             amazon_item.add_xpath('review_date', './/span[@data-hook="review-date"]/text()')
             amazon_item.add_xpath('review_text', './/span[@data-hook="review-body"]/span/text()')
             yield amazon_item.load_item()
-            #customer_name = review.xpath('.//span[@class="a-profile-name"]/text()').get()
-            #rating = review.css('.review-rating > span::text').get().split(' ')[0]
-            #review_title = review.xpath('.//a[@data-hook="review-title"]/span/text()').get()
-            #review_date = ' '.join(review.xpath('.//span[@data-hook="review-date"]/text()').get().split(' ')[-3:])
-           # review_text = review.xpath('.//span[@data-hook="review-body"]/span/text()').get()
 
-            # yield {
-            #     'name': customer_name,
-            #     'rating': rating,
-            #     'review_title': review_title,
-            #     'review_date': review_date,
-            #     'review_text': review_text
-            # }
         next_page = response.xpath('//li[@class="a-last"]/a/text()').get()
         if next_page:
             next_url = response.urljoin(response.xpath('//li[@class="a-last"]/a/@href').get())
