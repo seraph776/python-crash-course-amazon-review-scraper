@@ -22,6 +22,7 @@ This repo contains a web scraper using `Python Scrapy` that will collect and sto
 
 - **Objective**: The objective for this scraping system is to collect customer reviews for  our target keywords and store the results.
 - **Target Data**: The following items will be extracted and stored from each product: `name`, `rating`, `review_title`, `review_data`, and `review_text`. 
+- **Total records**: `732`
 - **Scale**: This will be a relatively small scale web scraper.
 - **Data Storage**: The data will be store in `CSV` and `JSON` files.
 
