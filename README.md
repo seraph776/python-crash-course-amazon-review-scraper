@@ -1,17 +1,20 @@
 <div id="top" align="center">
 
 # Python Crash Course, 2nd Edition 
+
 ## Amazon Customer Review Scraper  
 
 ![made-with-Python](https://img.shields.io/badge/Python-blue?&logo=python&logoColor=yellow&label=Built%20with&style=flat&labelColor=black)
 [![GitHub](https://img.shields.io/github/license/seraph776/seraph776?color=green&style=flat&labelColor=black&label=License)](https://github.com/seraph776/python-crash-course-amazon-review-scraper/blob/main/LICENSE)
 [![Contribute](https://img.shields.io/badge/Contribute-black?&logo=github&logoColor=black&label=&flat&labelColor=yellow)](https://github.com/seraph776/webscrape_template/blob/main/CONTRIBUTING.md) [![Report Bugs](https://img.shields.io/badge/Report%20Bugz-black?&logo=github&logoColor=black&label=&flat&labelColor=red)](https://github.com/seraph776/python-crash-course-amazon-review-scraper/issues/new/choose)
-
-
     
 
 
 _Show your support and give this repo a_ ⭐
+
+![image](https://user-images.githubusercontent.com/72005563/213335874-83e840fa-c2a0-416a-86a7-3a42b9d85e53.png)
+
+
 
 </div>  
 
