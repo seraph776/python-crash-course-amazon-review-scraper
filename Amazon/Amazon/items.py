@@ -21,6 +21,6 @@ class AmazonItem(Item):
 
 class AmazonItemLoader(ItemLoader):
     default_input_processor = MapCompose(str.strip)
-    default_output_processor = TakeFirst()
+    #default_output_processor = TakeFirst()
     rating_in = MapCompose(clean_reviews)
     review_date_in = MapCompose(clean_date)
